@@ -13,13 +13,15 @@ function Header() {
                 <HeaderItem title = "ACCOUNT" Icon = {UserIcon} />
             </div>
             
+              <div>
                 <Image 
                     className = "object-contain"
                     src = "https://links.papareact.com/ua6" 
                     width = {200} 
                     height = {100} 
                     alt = ''  />
-                <p className = ' absolute top-1 right-0'>by ossama</p>
+                <h1 className = ' px-10 top-0 right-0'>by ossama</h1>
+            </div>
         </header>
     )
 }
